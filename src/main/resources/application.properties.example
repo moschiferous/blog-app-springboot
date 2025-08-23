@@ -1,4 +1,5 @@
 spring.application.name=blog-app-springboot
 spring.data.mongodb.uri=mongodb://localhost:27017/db-blog-app-springboot
 spring.web.resources.add-mappings=false
-
+jwt.secret=your.secret
+jwt.expiration=86400000
